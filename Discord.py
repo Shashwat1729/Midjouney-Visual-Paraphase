@@ -9,7 +9,7 @@ TOKEN = "MTI0NDI2NTU5MDc1MjAyMjU4Mg.GY1LHf.ADdZsShJmY1muJREm0FPI6v-GgFgrtxakU3gn
 CHANNEL_ID = 1238313627266711573
 
 # Initial address for the image folder
-IMAGE_FOLDER = r"C:\Users\shash\Downloads\Automation\FMid"
+IMAGE_FOLDER = r"C:\Users\shash\Downloads\Automation\Midjourney"
 
 # Define the intents
 intents = discord.Intents.default()
