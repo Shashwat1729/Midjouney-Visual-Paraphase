@@ -29,6 +29,6 @@ This includes a script to invoke the bot and upload an image and then visually p
   ```
   !upload_image <image_name>
   ```
-
+- Adjust the sleep time if you encounter any issue regarding speed
 ### License:
 - This project is licensed under the MIT License.
