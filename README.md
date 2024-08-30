@@ -1,34 +1,63 @@
-# Midjouney-Visual-Paraphase
-This includes a script to invoke the bot and upload an image and then visually paraphrase these images based on the prompts in another file.esponding images, and download them
+# Midjourney Visual Paraphrase
 
-### Requirements:
+This project provides a Python script to invoke a Discord bot that uploads images and generates visual paraphrases based on provided prompts. It leverages Midjourney's image generation capabilities to create unique visual interpretations.
+
+## Features
+
+- **Automated Image Upload**: The bot uploads images to Discord.
+- **Visual Paraphrasing**: Generates new images based on user-defined prompts.
+- **Customizable**: Adjust prompts and output paths for personalized results.
+
+## Requirements
+
 - Python 3.10+
-- `discord.py`, `selenium`, `pyautogui`, `requests` libraries
+- Libraries: `discord.py`, `selenium`, `pyautogui`, `requests`
 
-### Setup and Usage:
+## Installation
 
-1. **Install Required Libraries**:
+1. Clone this repository:
+    ```bash
+    git clone https://github.com/Shashwat1729/Midjouney-Visual-Paraphase.git
+    cd Midjouney-Visual-Paraphase
+    ```
+2. Install the required Python libraries:
     ```bash
     pip install discord.py selenium pyautogui requests
     ```
 
-2. **Run the Discord Bot**:
+## Usage
+
+1. **Run the Discord Bot**:
     ```bash
     python Discord.py
     ```
+   Ensure the bot logs in to Discord.
 
-3. **Verify Bot Login**: Ensure the bot has logged into Discord.
+2. **Configure and Execute**:
+   - Edit `prompts_new.txt` with your custom prompts.
+   - Adjust file paths in the script as necessary.
+   - Execute the image generation script:
+     ```bash
+     jupyter notebook Midjourney_para.ipynb
+     ```
 
-4. **Configure and Run the Image Generation Script**:
-    - Open `prompts_new.txt` and ensure it contains your prompts.
-    - Update the prompt file name and image output folder paths in the script as needed.
-    - Run the Midjourney.ipynb script.
+3. **Upload and Paraphrase**:
+   - Use the bot command in Discord to upload an image:
+     ```bash
+     !upload_image <image_name>
+     ```
+   - The bot will generate and download the paraphrased images.
 
-### Notes:
-- Use can check if the bot in Discord is working with the command:
-  ```
-  !upload_image <image_name>
-  ```
-- Adjust the sleep time if you encounter any issue regarding speed
-### License:
-- This project is licensed under the MIT License.
+## Notes
+
+- Adjust the sleep time in the script if you encounter issues with bot speed.
+- Ensure the prompt file and image output directories are correctly configured.
+
+## License
+
+This project is licensed under the MIT License.
+
+## Contributing
+
+Contributions are welcome! Feel free to submit issues or pull requests.
+
